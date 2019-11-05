@@ -1,5 +1,7 @@
-package com.wzt.springboot.springboot.filter;
+package com.wzt.springboot.springboot.config;
 
+import com.wzt.springboot.springboot.filter.MyFilter;
+import com.wzt.springboot.springboot.filter.MyFilter2;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.web.servlet.FilterRegistrationBean;
 import org.springframework.context.annotation.Bean;
